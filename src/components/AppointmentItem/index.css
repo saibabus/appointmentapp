@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.appointmenteach {
+  border-radius: 10px;
+  border: 1px solid #b5b7c4;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 200px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
+.title-heading {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #171f46;
+}
+
+.date {
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #b5b7c4;
+}
+.startappointmenteach {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+.name-star-conatiner {
+  display: flex;
+  justify-content: space-between;
+}

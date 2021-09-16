@@ -1,0 +1,121 @@
+/* Write your CSS here */
+.appointments-app {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.appointments-content {
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 90%;
+  border: none;
+  padding: 20px;
+}
+.userinput-img-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  order: 0;
+}
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #171f46;
+}
+.label-title-date {
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #b5b7c4;
+  margin-bottom: 5px;
+}
+
+.input-date {
+  border: 1px solid #b5b7c4;
+  background-color: transparent;
+  color: #171f46;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+  border-radius: 8px;
+  outline: none;
+  padding: 5px;
+  width: 200px;
+}
+.appointment-img {
+  width: 300px;
+  height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .input-date {
+    width: 150px;
+  }
+  .userinput-img-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .appointment-img {
+    width: 200px;
+  }
+  .form {
+    order: 1;
+  }
+}
+.line-comment {
+  width: 100%;
+  color: #b5b7c4;
+}
+
+.appointment-star-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-button {
+  background-color: #8b5cf6;
+  border-radius: 10px;
+  padding: 5px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Roboto';
+  height: 30px;
+}
+
+.stared-button {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 5px;
+  color: #9796f0;
+  border: 1px solid #b5b7c4;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Roboto';
+  height: 30px;
+}
+.active {
+  background-color: #8b5cf6;
+  color: #ffffff;
+}
+.list-heading {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #171f46;
+}
+.appointmentscontainer {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+}
